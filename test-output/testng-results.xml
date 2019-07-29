@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16718" started-at="2019-07-29T14:42:35Z" finished-at="2019-07-29T14:42:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16718" started-at="2019-07-29T14:42:35Z" finished-at="2019-07-29T14:42:52Z">
+      <class name="org.sample.TestNGOne">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.TestNGOne@7c0e2abd]" name="test1" duration-ms="7512" started-at="2019-07-29T20:12:45Z" finished-at="2019-07-29T20:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- org.sample.TestNGOne -->
+      <class name="org.sample.TestNGFb">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.TestNGFb@6a2bcfcb]" name="test1" duration-ms="9176" started-at="2019-07-29T20:12:36Z" finished-at="2019-07-29T20:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- org.sample.TestNGFb -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
